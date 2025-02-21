@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strona turnieju</title>
+    <style>
+    *{
+     background-size: 100%;
+    background-image: url(https://i.pinimg.com/originals/be/1f/2f/be1f2fd9afa91d50a4f6723f38db331b.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    size: 100%;
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        background: #ffffff46;
+        border: 2px solid;
+        color: aliceblue;
+        padding: 50px;
+        transition: 0.5s;
+        width: 500px;
+        height: 50px;
+        margin: 100px auto;
+    }
+    .pasek{
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    text-align: center;
+    width: 79%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+nav li a:hover::after{
+    transform: scaleX(1);
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    left: 5;
+    font-family: "Cookie";
+    position: relative;
+
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    left: 0;
+    bottom: -6px;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+
+ footer p{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        background: #507885da;
+        border: 2px solid;
+        padding: 1px;
+        margin: 10px;
+        z-index: 1;
+        color: aliceblue;
+        transition: 0.5s;
+        width: 500px;
+        margin-left: 23em;
+        margin-top: 200px;
+        margin: 0 auto;
+        position:absolute;
+        left: 0;
+        width: 100%;  
+        height: 5%;
+        bottom: 1px;
+ }
+ .nst img{
+    width: 120px;
+    position: absolute;
+    margin-left: 30px;
+ }
+ @media screen and (max-width: 1919px){
+    *{
+        background-repeat: repeat-y; 
+    }
+ }
+
+ @media screen and (max-width: 1000px){
+    *{
+        width: 90%;
+        height: fit-content;
+        background-repeat: repeat-y;
+    }
+    ul{
+        text-align: right;
+    }
+    a{
+        margin-top: 30px;
+        justify-content: end;
+    }
+    .nst img{
+        margin: 0;
+    }
+    h1{
+        text-align: center;
+        width: 60%;
+        font-size: 20px;
+        margin-top: 250px;
+        padding: 30%;
+
+    }
+    
+    footer p{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        background: #507885da;
+        border: 2px solid;
+        padding: 1px;
+        margin: 10px;
+        z-index: 1;
+        color: aliceblue;
+        transition: 0.5s;
+        width: 150px;
+        margin-top: 200px;
+        margin: 0 auto;
+        left: 0;
+        width: fit-content;  
+        height: 5%;
+        bottom: 0;
+ }
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="pasek">
+        <div class="nst">
+            <img src="nst.png">
+        </div>
+        <nav>
+            <ul>
+            <li><a href="indexreg.html">REGULAMIN</a></li>
+            <li><a href="https://docs.google.com/forms/u/3/d/1OJ7420ztg1IBEDLH5kzSLpugZZ8QmnENFd_rJKfJ9bg/edit?usp=drive_web">ZAPISY</a></li>
+            <li><a href="https://scontent.fktw1-1.fna.fbcdn.net/v/t1.15752-9/462574716_539120282435953_9107579456982330746_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=j1HQtW1IuxkQ7kNvgG7PPx-&_nc_zt=23&_nc_ht=scontent.fktw1-1.fna&oh=03_Q7cD1QGHT7yIyPxqomE_86-8vyfYXuQvtxvLKjbsEO4gDy2wrA&oe=67798059">PLAKAT</a></li>
+            <ul>
+        <nav>
+    </div>
+ 
+        <h1> TURNIEJ LEAGUE OF LEGENDS 2025</h1>
+ 
+
+    <footer id="footer-copyright" class="footer-copyright">
+        <div class="container">
+            <div class="hm-footer-copyright text-center">
+                <p>
+                     TURNIEJ LEAGUE OF LEGENDS KLASA 4aT5 2025</a>
+                </p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
