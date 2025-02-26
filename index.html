@@ -36,7 +36,7 @@
         transition: 0.5s;
         width: 500px;
         height: 50px;
-        margin: 100px auto;
+        margin: 0px auto;
     }
     h3{
         text-align: center;
@@ -111,9 +111,8 @@ nav li a::after{
         margin: 0 auto;
         position:absolute;
         left: 0;
-        width: 100%;  
+        width: 99.6%;  
         height: 5%;
-        bottom: 0px;
  }
  .nst img{
     width: 120px;
@@ -122,12 +121,23 @@ nav li a::after{
  }
 
  @media screen and (max-width: 1000px){
+    *{
+        margin-left: 19px;
+    }
     body{
         width: 90%;
         height: fit-content;
-        background-color: blue;
+        background-color: #3640ff
     }
-     
+    td{
+        width: 120px;
+        height: 120px;
+    }
+    table td img{
+        width: 120px;
+        height: 120px;
+    }
+
     ul{
         text-align: right;
 
@@ -141,10 +151,19 @@ nav li a::after{
     }
     h1{
         text-align: center;
-        width: 40%;
+        width: 50%;
         font-size: 20px;
         margin-top: 250px;
-        padding: 10%; 
+        padding: 10%;
+        margin-bottom: 0; 
+
+    }
+    h2{
+        text-align: center;
+        width: 50%;
+        font-size: 20px;
+        padding: 10%;
+        margin: 0px auto; 
 
     }
     
@@ -159,10 +178,8 @@ nav li a::after{
         z-index: 1;
         color: aliceblue;
         transition: 0.5s;
-        width: 150px;
-        margin-top: 200px;
-        margin: 0 auto;
-        left: 0;
+        width: 100%;
+        margin-top: -100px;;
         width: fit-content;  
         height: 5%;
         bottom: 0;
@@ -170,11 +187,12 @@ nav li a::after{
     }
     table{
         margin-left: 27%;
+        width: 0px;;
     }
     td img{
         width: 400px;
         height: 400px;
-        margin: auto;
+        margin: 0;
     }
     </style>
 </head>
@@ -188,20 +206,22 @@ nav li a::after{
             <ul>
             <li><a href="indexreg.html">REGULAMIN</a></li>
             <li><a href="https://docs.google.com/forms/u/3/d/1OJ7420ztg1IBEDLH5kzSLpugZZ8QmnENFd_rJKfJ9bg/edit?usp=drive_web">ZAPISY</a></li>
-            <li><a href="https://scontent.fktw1-1.fna.fbcdn.net/v/t1.15752-9/462574716_539120282435953_9107579456982330746_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=j1HQtW1IuxkQ7kNvgG7PPx-&_nc_zt=23&_nc_ht=scontent.fktw1-1.fna&oh=03_Q7cD1QGHT7yIyPxqomE_86-8vyfYXuQvtxvLKjbsEO4gDy2wrA&oe=67798059">PLAKAT</a></li>
+            <li><a href="https://imgur.com/a/yhoiQkn">PLAKAT</a></li>
             <ul>
         <nav>
     </div>
  
         <h1> TURNIEJ LEAGUE OF LEGENDS 2025</h1><br>
  
-         <h2> Organizatorzy</h2>
+         <h2> Organizatorzy i patronaci</h2>
+         <div class="table">
             <table>
                 <tr>
                     <td> <img src="nst.png"> </td>
                     <td> <img src="esport.jpg"> </td>
                 </tr>
             </table>
+        </div>
     <footer id="footer-copyright" class="footer-copyright">
         <div class="container">
             <div class="hm-footer-copyright text-center">
